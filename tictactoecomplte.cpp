@@ -346,6 +346,9 @@ int main()
 {
 intialize();
 //show();
+int gh;
+do
+{
 int j;
 int k;
 cout<<"If you Want to play first then press 1 else press any no."<<endl;
@@ -377,6 +380,12 @@ else
 while(k!=0);
 }
 cout<<"Game Over"<<endl;
+
+cout<<"Press 1 to contuine 2 to exit"<<endl;
+cin>>gh;
+intialize();
+}
+while(gh!=2);
 
 	return 0;
 }
